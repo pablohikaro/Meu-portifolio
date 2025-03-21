@@ -1,6 +1,6 @@
 header{
-    background-color: #000;
-    
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 44%, rgba(209,16,16,1) 53%, rgba(0,0,0,1) 58%);
 }
 
 nav{
@@ -11,7 +11,7 @@ nav{
 
 a{
     display: inline-block;
-    color: #DC143C;
+    color: #b83311;
     font-weight: 500;
     font-size: 17px;
     text-decoration: none;
@@ -37,7 +37,44 @@ a:hover{
 }
 
 #curriculo:hover{
-    background: red;
+    background: rgb(206, 25, 25);
     color: black;
 
 }
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 28%, rgba(16,209,207,1) 53%, rgba(0,0,0,1) 75%);
+}
+
+
+#perfil{
+   height: 280px;
+   margin-top: 50px;
+   border-radius: 80%;
+
+}
+.apresentacao{
+    display: inline-block;
+    text-align: center;
+}
+
+h1, h2{
+    color: #fff;
+}
+
+.contato{
+    text-shadow: none;
+    background-color: #eee2e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 5px;
+    font-size: 18px;
+}
+
+
+
