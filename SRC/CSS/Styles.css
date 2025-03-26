@@ -1,80 +1,145 @@
-header{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 44%, rgba(209,16,16,1) 53%, rgba(0,0,0,1) 58%);
-}
 
-nav{
-    text-align: right;
+nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151515;
+    border-bottom: 2px solid #272727;
+    font-weight: bold;
+    height: 80px;
+    border-bottom: 5px solid rgb(255, 255, 255);
 }
 
-a{
-    display: inline-block;
-    color: #b83311;
-    font-weight: 500;
-    font-size: 17px;
+.menu {
     text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 25px;
-    margin: 20px;
-    text-shadow: 10px 10px 3px #fff;
+    list-style: none;
+    font-size: 1.7vw;
+}
+
+nav ul a {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 50px;
+    color: #fff;
+}
+
+nav p a {
+    color: #B22222;
+    text-decoration: none;
+    font-size: 2vw;
     
 }
 
-a:hover{
-    transform:scale(1.05);
+.apresentacao{
+     position: absolute;
+    left: 490px;
+    top: 180px; 
+    font-size: 45px;
 }
 
-#curriculo{
-    display: inline-block;
-    padding: 10px 10px;
-    box-shadow: 5px 5px 9px ;
-    margin-top: 15px;
-    background-color: #fff;
-    border-radius: 50px;
-    transition: 0.3s  ease;
+.main {
+    height: 50vw;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.9486169467787114) 63%, rgba(108,2,0,1) 75%, rgba(0,0,0,0.9486169467787114) 99%);
+    
 }
 
-#curriculo:hover{
-    background: rgb(206, 25, 25);
-    color: black;
-
+.botao-linkedin{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #121212;
+    padding: 3px 5px 5px;
+    margin-top: 1rem;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+    height: 30px;
+    border-radius: 8px;
 }
 
-.secao{
+.botao-linkedin::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -2px;
+    border-radius: 9px;
+    background: linear-gradient(-45deg, rgb(214, 18, 18), rgb(213, 20, 20));
+    background-size: 400%;
+    animation: move infinite forwards 4s;
+}
+
+
+.botao-github {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #121212;
+    padding: 3px 5px 5px;
+    margin-top: 1rem;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.botao-github::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -2px;
+    border-radius: 9px;
+    background: linear-gradient(-45deg, rgb(214, 18, 18), rgb(213, 20, 20));
+    background-size: 400%;
+    animation: move infinite forwards 4s;
+}
+
+.introducao {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 28%, rgba(16,209,207,1) 53%, rgba(0,0,0,1) 75%);
+    height: 75%;
+    padding: 90px;
+    
+}
+
+.img-linkedin {
+    height: 25px;
+    padding-right: 5px;
+    
+}
+
+.img-github {
+    height: 25px;
+    padding-right: 5px;
+}
+
+section div h2 {
+    padding: 3px;
+}
+
+.meu-nome{
+    font-size: 70px;
+    color: 	#B22222;
 }
 
 
-#perfil{
-   height: 280px;
-   margin-top: 50px;
-   border-radius: 80%;
-
-}
-.apresentacao{
-    display: inline-block;
-    text-align: center;
+.botao-principal{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 240px;
+    font-size: 18px;
+    
 }
 
-h1, h2{
+section div a{
     color: #fff;
 }
-
-.contato{
-    text-shadow: none;
-    background-color: #eee2e2;
-    border-radius: 5px;
-    box-sizing: border-box;
-    box-shadow: 5px 10px 5px;
-    font-size: 18px;
-}
-
-
-
