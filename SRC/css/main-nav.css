@@ -1,0 +1,29 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151515;
+    border-bottom: 2px solid #272727;
+    font-weight: bold;
+    height: 80px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.main-nav ul a {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 50px;
+    color: #fff;
+}
+
+.main-nav p a {
+    color: #B22222;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.menu {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.7vw;
+}

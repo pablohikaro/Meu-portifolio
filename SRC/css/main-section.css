@@ -1,0 +1,41 @@
+.main-section {
+    height: 50vw;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.9486169467787114) 63%, rgba(108, 2, 0, 1) 75%, rgba(0, 0, 0, 0.9486169467787114) 99%);
+
+}
+
+.main-saudacao {
+    position: absolute;
+    left: 490px;
+    top: 180px;
+    font-size: 45px;
+}
+
+.main-apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    padding: 90px;
+
+}
+
+
+.main-section div h2 {
+    padding: 3px;
+}
+
+
+.main-section .main-apresentacao .meu-nome {
+    font-size: 70px;
+    color: #B22222;
+}
+
+
+.main-section div a {
+    color: #fff;
+}
