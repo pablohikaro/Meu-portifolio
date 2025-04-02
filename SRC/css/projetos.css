@@ -1,30 +1,59 @@
-.main-projetos {
-    padding: 10px;
+.main-projetos{
+    margin-bottom: 100px;
 }
 
-.conteiner-projeto {
+.conteiner-projeto>h2 {
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cartao-projeto {
+    border: 4px solid #c40c0c;
+    font-size: 1.3rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(34, 33, 33);
 }
 
-.conteiner-projeto>p {
-    font-size: 39px;
+.cartao-projeto h3,
+p,
+a {
     color: #fff;
-
-
+    padding: 9px;
 }
 
-.cartao-projetos>img {
-    height: 300px;
-    width: 320px;
-    border-radius: 10px;
+.cartao-projeto p {
+    color: #d8d4dc;
+}
+
+
+.cartao-projeto h3 {
+    font-size: 1.7rem;
+}
+
+
+.cartao-projeto a {
+    display: inline-flex;
+    justify-content: center;
+    color: #f1ebeb;
+    text-decoration: none;
+    transition: ease-out 0.1s;
     position: relative;
-
 }
 
-
-.descricao>p {
+.cartao-projeto a:hover:after {
+    transform: scale(1.2);
+    content: "";
     position: absolute;
-    color: #fff;
-    font-size: 25px;
+    width: 30%;
+    height: 0.2rem;
+    background-image: linear-gradient(90deg, #dd2124 0%, #590521 92.32%);
+    bottom: 5px;
+
 }
