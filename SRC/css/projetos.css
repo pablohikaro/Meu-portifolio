@@ -1,0 +1,30 @@
+.main-projetos {
+    padding: 10px;
+}
+
+.conteiner-projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-projeto>p {
+    font-size: 39px;
+    color: #fff;
+
+
+}
+
+.cartao-projetos>img {
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+.descricao>p {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+}

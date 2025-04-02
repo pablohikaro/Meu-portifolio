@@ -28,7 +28,8 @@
 .content-skill {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+
 }
 
 .cartao {
@@ -72,7 +73,6 @@
 }
 
 
-.secao-skill {
-    display: flex;
+.secao-skill { 
     margin-top: 40px;
 }
