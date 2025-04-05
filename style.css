@@ -1,9 +1,11 @@
+
+@import url(SRC/css/reset.css);
+@import url(SRC/css/resposivedade.css);
 @import url(SRC/css/base.css);
 @import url(SRC/css/main-buttons.css);
 @import url(SRC/css/main-conteudo.css);
 @import url(SRC/css/main-nav.css);
 @import url(SRC/css/main-section.css);
 @import url(SRC/css/projetos.css);
-@import url(SRC/css/reset.css);
 @import url(SRC/css/secao-skill.css);
 @import url(SRC/css/footer.css);

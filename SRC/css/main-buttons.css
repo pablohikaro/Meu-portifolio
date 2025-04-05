@@ -1,9 +1,7 @@
 .main-buttons {
     display: inline-flex;
     justify-content: space-between;
-    width: 240px;
     font-size: 18px;
-
 }
 
 
@@ -11,7 +9,6 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
     background-color: #121212;
     padding: 3px 5px 5px;
     margin-top: 1rem;
@@ -33,11 +30,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
     background-color: #121212;
     padding: 3px 5px 5px;
     margin-top: 1rem;
-    transition: 0.3s;
     font-weight: 600;
     font-size: 0.95rem;
     letter-spacing: 1.5px;

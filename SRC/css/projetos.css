@@ -1,6 +1,4 @@
-.main-projetos{
-    margin-bottom: 100px;
-}
+
 
 .conteiner-projeto>h2 {
     text-align: center;
@@ -9,19 +7,19 @@
     color: #fff;
 }
 
-.cartao-projeto {
+.cartao-yu-gi-ho {
     border: 4px solid #c40c0c;
     font-size: 1.3rem;
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    width: 40dvh;
+    height: 22dvh;
     background-color: rgb(34, 33, 33);
 }
 
-.cartao-projeto h3,
+.cartao-yu-gi-ho h3,
 p,
 a {
     color: #fff;

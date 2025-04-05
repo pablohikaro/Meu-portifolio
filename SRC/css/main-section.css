@@ -1,5 +1,5 @@
 .main-section {
-    height: 50vw;
+    height: 50%;
     font-weight: bold;
     font-size: 15px;
     background: rgb(255, 255, 255);
@@ -7,19 +7,11 @@
 
 }
 
-.main-saudacao {
-    position: absolute;
-    left: 490px;
-    top: 180px;
-    font-size: 45px;
-}
-
 .main-apresentacao {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 75%;
     padding: 90px;
 
 }
@@ -31,7 +23,7 @@
 
 
 .main-section .main-apresentacao .meu-nome {
-    font-size: 70px;
+    font-size: 10dvh;
     color: #B22222;
 }
 
@@ -39,3 +31,4 @@
 .main-section div a {
     color: #fff;
 }
+

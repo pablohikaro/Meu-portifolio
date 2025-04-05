@@ -1,0 +1,47 @@
+@media(max-width: 768px){
+    
+    .menu{
+        display: none;
+    }
+
+    .meu-nome{
+        text-align: center;
+    }
+    
+    .cartao{
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+@media (max-width: 640px){
+
+    .main-apresentacao{
+        font-size: 2dvh;
+    }
+
+    .cartao-yu-gi-ho{
+        width: 70% !important;
+        height: 50% !important;
+    }
+
+    .meu-nome{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px){
+    .sobre-mim{ 
+        overflow: scroll;
+    } 
+
+
+    .main-content .sobre-mim > p{
+        text-align: center;
+    }
+
+}
+
