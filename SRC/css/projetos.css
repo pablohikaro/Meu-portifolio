@@ -26,17 +26,17 @@ a {
     padding: 9px;
 }
 
-.cartao-projeto p {
+.cartao-yu-gi-ho p {
     color: #d8d4dc;
 }
 
 
-.cartao-projeto h3 {
+.cartao-yu-gi-ho h3 {
     font-size: 1.7rem;
 }
 
 
-.cartao-projeto a {
+.cartao-yu-gi-ho a {
     display: inline-flex;
     justify-content: center;
     color: #f1ebeb;
@@ -45,7 +45,7 @@ a {
     position: relative;
 }
 
-.cartao-projeto a:hover:after {
+.cartao-yu-gi-ho a:hover:after {
     transform: scale(1.2);
     content: "";
     position: absolute;

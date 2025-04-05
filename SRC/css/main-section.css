@@ -4,7 +4,9 @@
     font-size: 15px;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(255, 255, 255, 0.9486169467787114) 63%, rgba(108, 2, 0, 1) 75%, rgba(0, 0, 0, 0.9486169467787114) 99%);
-
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 15%;
 }
 
 .main-apresentacao {

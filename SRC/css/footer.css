@@ -8,4 +8,9 @@
     height: 25px;
     width: 25px;
     margin-top: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.roda-pe img:hover{
+    transform: scale(1.2);
 }

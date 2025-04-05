@@ -4,13 +4,11 @@
         display: none;
     }
 
-    .meu-nome{
-        text-align: center;
-    }
     
     .cartao{
         flex-wrap: wrap;
     }
+
 
     
 }
@@ -33,7 +31,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 999px){
     .sobre-mim{ 
         overflow: scroll;
     } 

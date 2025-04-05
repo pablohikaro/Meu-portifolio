@@ -1,7 +1,6 @@
 .main-content {
     background-color: rgb(0, 0, 0);
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20%;
     margin-left: 10px;
     height: 100%;
     display: flex;
@@ -21,7 +20,7 @@
 
 .main-content .sobre-mim p {
     color: #fff;
-    font-size: 3dvh;
+    font-size: 2.7dvh;
     padding: 10px 10px;
     margin-top: 10px;
 }
