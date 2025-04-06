@@ -36,6 +36,10 @@
         overflow: scroll;
     } 
 
+    .main-section div h2{
+        text-align: center;
+    }
+
 
     .main-content .sobre-mim > p{
         text-align: center;
