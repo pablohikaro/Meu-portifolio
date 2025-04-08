@@ -1,0 +1,27 @@
+
+#logo-flutuante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    left: 91%;
+    background-color: #e6dada;
+    width: 8%;
+    height: 10%;
+    border-radius: 100% 100% 0% 90%;
+    transition: ease-in-out 0.5s;
+}
+
+#logo-flutuante:hover{
+    transform: scale(1.1);
+    background-color: rgb(44, 44, 42);
+}
+
+
+#logo-flutuante p a {
+    color: #B22222;
+    text-decoration: none;
+    font-size: 2.7vw;
+   
+}
