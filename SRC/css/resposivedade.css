@@ -1,49 +1,46 @@
-@media(max-width: 768px){
-    
-    .menu{
-        display: none;
-    }
+@media(max-width: 768px) {
 
-    
-    .cartao{
+
+    .cartao {
         flex-wrap: wrap;
     }
 
 
-    
+
 }
 
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
 
-    .main-apresentacao{
+    .main-apresentacao {
         font-size: 2dvh;
     }
 
-    .cartao-yu-gi-ho{
+    .cartao-yu-gi-ho {
         width: 70% !important;
         height: 50% !important;
     }
 
-    .meu-nome{
+    .meu-nome {
         text-align: center;
     }
 }
 
 
-@media (max-width: 999px){
-    .sobre-mim{ 
+@media (max-width: 999px) {
+    .sobre-mim {
         overflow: scroll;
-    } 
+    }
 
-    .main-section div h2{
+    .main-section div h2 {
         text-align: center;
     }
 
 
-    .main-content .sobre-mim > p{
+    .main-content .sobre-mim>p {
         text-align: center;
     }
 
 }
+
 

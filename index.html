@@ -12,25 +12,16 @@
 <body>
     <header class="main-header">
         <nav class="main-nav">
-            <p><a href="">&lt;PH/&gt;</a></p>
-            <ul class="menu">
-                <a href="">
-                    <li>Sobre</li>
-                </a>
-                <a href="">
-                    <li>Contato</li>
-                </a>
-                <a href="">
-                    <li>Projetos</li>
-                </a>
+            <button id="hamburger-button" class="hamburger-button" aria-label="Menu Principal" aria-controls="menu" aria-expanded="true">
+                <span class="icon"></span>menu
 
-                <a href="">
-                    <li>Habilidades</li>
-                </a>
+            </button>
 
-                <a href="">
-                    <li>Download CV</li>
-                </a>
+            <ul id="menu" class="menu" aria-hidden="true">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Habilidade</a></li>
+              <li><a href="">Projetos</a></li>
+              <li><a href="">Dowload CV</a></li>
 
 
             </ul>
@@ -58,7 +49,8 @@
             </div>
         </div>
     </section>
-
+    
+        <div id="logo-flutuante">  <p><a href="">&lt;PH/&gt;</a></p> </div>
 
     <main class="main-content">
         <img src="./SRC/imagens/WhatsApp Image 2025-03-21 at 08.08.05.jpeg" alt="foto de pablo">
@@ -129,6 +121,8 @@
             <img src="./SRC/imagens/gmail.png" alt="logo e-mail">
         </a>
     </footer>
+
+    <script src="SRC/js/menu.js"></script>
 
 </body>
 

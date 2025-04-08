@@ -1,17 +1,17 @@
-.roda-pe{
+.roda-pe {
     display: flex;
     justify-content: center;
     margin-top: 20%;
     background-color: rgb(27, 22, 22);
 }
 
-.roda-pe img{
+.roda-pe img {
     height: 25px;
     width: 25px;
     margin-top: 10px;
     transition: ease-in-out 0.2s;
 }
 
-.roda-pe img:hover{
+.roda-pe img:hover {
     transform: scale(1.2);
 }

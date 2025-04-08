@@ -1,4 +1,4 @@
-.secao-skill{
+.secao-skill {
     margin-bottom: 20%;
 }
 
@@ -29,7 +29,7 @@
 
 .content-skill {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .cartao {
@@ -55,14 +55,14 @@
     background-color: rgb(12, 11, 11);
 }
 
-.box:hover{
+.box:hover {
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
     border-top-style: groove;
-   transform: scale(0.9);
+    transform: scale(0.9);
 }
 
-.secao-skill .skill .content-skill .cartao .box::after{
+.secao-skill .skill .content-skill .cartao .box::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -72,8 +72,7 @@
 }
 
 
-.secao-skill { 
+.secao-skill {
     margin-top: 40px;
     width: 100%;
 }
-
