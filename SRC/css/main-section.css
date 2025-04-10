@@ -33,3 +33,28 @@
     color: #fff;
 }
 
+.bem-vindo{
+    margin-bottom: 10%;
+    color: #bc1d1d;
+    font-size: 7dvh;
+}
+
+.bem-vindo::after{
+    content: "";
+    position: relative;
+    border-right: 4px solid #cfc3c3;
+    animation: piscar 700ms linear infinite;
+}
+
+@keyframes piscar{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+

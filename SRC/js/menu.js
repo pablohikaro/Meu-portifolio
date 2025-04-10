@@ -12,16 +12,16 @@ function closeMenu() {
 closeMenu()
 
 
-btnMenu.addEventListener("click", function(){
+btnMenu.addEventListener("click", function () {
     console.log(this)
 
     let expanded = this.getAttribute("aria-expanded") === "true" ? true : false
 
     document.removeEventListener("click", closeMenu)
 
-    if(expanded) {
+    if (expanded) {
         menu.classList.add("menu-closed")
-    }else{
+    } else {
         menu.classList.remove("menu-closed")
     }
 
@@ -29,21 +29,21 @@ btnMenu.addEventListener("click", function(){
     menu.setAttribute("aria-hidden", expanded)
 
 
-     setTimeout(function(){
-        if(!expanded) {
+    setTimeout(function () {
+        if (!expanded) {
             document.addEventListener("click", closeMenu)
         }
-     }, 1)
+    }, 1)
 })
 
 const mediaQuery = window.matchMedia('(min-width: 768px')
 
-function handleMediaQueryChange(e){
-    if(e.matches){
+function handleMediaQueryChange(e) {
+    if (e.matches) {
         menu.setAttribute("aria-hidden", "false")
         btnMenu.setAttribute("aria-expanded", "true")
         menu.classList.remove("menu-closed")
-    }else{
+    } else {
         menu.setAttribute("aria-hidden", "true")
         btnMenu.setAttribute("aria-expanded", "false")
         menu.classList.add("menu-closed")
@@ -54,17 +54,30 @@ mediaQuery.addEventListener("change", handleMediaQueryChange)
 handleMediaQueryChange(mediaQuery);
 
 
+
+
 const myObserve = new IntersectionObserver((entries) => {
-    entries.forEach( (entry) => {
+    entries.forEach((entry) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show')
-        }else{
+        } else {
             entry.target.classList.remove('show')
         }
     })
 })
 
-
 const elements = document.querySelectorAll('.hidden')
 
-elements.forEach((element) => myObserve.observe(element))
+elements.forEach((element) => myObserve.observe(element));
+
+const msg = "Bem-vindo!";
+
+let titulo = document.querySelector(".bem-vindo");
+
+for (var i = 0; i < msg.length; i++) {
+    (function(pos) {
+        setTimeout(function() {
+            titulo.innerHTML += msg.charAt(pos);
+        }, 400 * pos);
+    })(i);
+}
