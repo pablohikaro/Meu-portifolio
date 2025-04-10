@@ -1,4 +1,26 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
 body{
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 79%, rgba(162,6,6,1) 99%);
+}
+
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1.8s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1 ;
+    filter: blur(0);
+    z-index: -1;
+    transform: translateX(0);
+    transition: all 1.8s;
 }

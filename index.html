@@ -12,25 +12,26 @@
 <body>
     <header id="home" class="main-header">
         <nav class="main-nav">
-            <button id="hamburger-button" class="hamburger-button" aria-label="Menu Principal" aria-controls="menu" aria-expanded="true">
+            <button id="hamburger-button" class="hamburger-button" aria-label="Menu Principal" aria-controls="menu"
+                aria-expanded="true">
                 <span class="icon"></span>menu
 
             </button>
 
             <ul id="menu" class="menu" aria-hidden="true">
-              <li><a href="#sobre">Sobre</a></li>
-              <li><a href="#habilidade">Habilidade</a></li>
-              <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#contato">Contato</a></li>
-              <li><a href="SRC/imagens/Currículo desevolvedor.pdf" type="aplication/pdf" download>Dowload CV</a></li>
-             
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidade">Habilidade</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="SRC/imagens/Currículo desevolvedor.pdf" type="aplication/pdf" download>Dowload CV</a></li>
+
 
 
             </ul>
         </nav>
     </header>
 
-    <section class="main-section">
+    <section class="main-section hidden">
         <div class="main-apresentacao">
             <h2>Prazer, eu sou</h2>
             <h2 class="meu-nome">Pablo Hikaro</h2>
@@ -52,43 +53,46 @@
         </div>
     </section>
 
-        <div id="logo-flutuante">  <p><a href="#home">&lt;PH/&gt;</a></p> </div>
+    <main id="sobre" class="main-content hidden">
 
-    <main id="sobre" class="main-content">
-        <img src="./SRC/imagens/WhatsApp Image 2025-03-21 at 08.08.05.jpeg" alt="foto de pablo">
 
         <div class="sobre-mim">
-            <h1>Sobre</h1>
-            <p>Sempre gostei de resolver problemas ao invés de só ficar reclamando. Isso e minha curiosidade pela área
-                de tecnologia me fez começar a estudar a área, onde meu interesse cresceu muito e o desejo de resolver
-                problemas me fez ingressar na área.
+            <img src="./SRC/imagens/WhatsApp Image 2025-03-21 at 08.08.05.jpeg" alt="foto de pablo">
+            <div class="conteiner-p">
+                <h1>Sobre</h1>
+                <p>Sempre gostei de resolver problemas ao invés de só ficar reclamando. Isso e minha curiosidade pela
+                    área
+                    de tecnologia me fez começar a estudar a área, onde meu interesse cresceu muito e o desejo de
+                    resolver
+                    problemas me fez ingressar na área.
 
-                Atualmente, estou em busca da minha primeira vaga de front-end. Tenho experiência com HTML, CSS,
-                JavaScript e estou me aprimorando cada vez mais nas tecnologias que são necessárias para a área.
+                    Atualmente, estou em busca da minha primeira vaga de front-end. Tenho experiência com HTML, CSS,
+                    JavaScript e estou me aprimorando cada vez mais nas tecnologias que são necessárias para a área.
 
 
-            </p>
+                </p>
+            </div>
         </div>
     </main>
 
-    <section id="habilidade" class="secao-skill">
+    <section id="habilidade" class="secao-skill hidden">
         <div class="skill">
             <div class="content-skill">
                 <p class="competencia">Habilidade</p>
                 <div class="cartao">
-                    <div class="box">
+                    <div class="box hidden">
                         <p>Html</p>
                         <img src="./SRC/imagens/html-5.png" alt="Logo html">
                     </div>
-                    <div class="box">
+                    <div class="box hidden">
                         <p>Css</p>
                         <img src="./SRC/imagens/css-3.png" alt="Logo css">
                     </div>
-                    <div class="box">
+                    <div class="box hidden">
                         <p>JavaScript</p>
                         <img src="./SRC/imagens/js.png" alt="Logo JavaScript">
                     </div>
-                    <div class="box">
+                    <div class="box hidden">
                         <p>Figma</p>
                         <img src="./SRC/imagens/figma.png" alt="Logo figma">
                     </div>
@@ -97,7 +101,7 @@
         </div>
     </section>
 
-    <section id="projetos" class="main-projetos">
+    <section id="projetos" class="main-projetos hidden">
         <div class="conteiner-projeto">
             <h2>Projetos</h2>
             <div class="cartao-projetos">
@@ -112,7 +116,11 @@
         </div>
     </section>
 
-    <footer id="contato" class="roda-pe">
+    <div id="logo-flutuante">
+        <p><a href="#home">&lt;PH/&gt;</a></p>
+    </div>
+
+    <footer id="contato" class="roda-pe hidden">
         <a href="https://www.instagram.com/pablo_hikaro/">
             <img src="./SRC/imagens/instagram.png" alt="instagram">
         </a>

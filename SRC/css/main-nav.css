@@ -58,8 +58,9 @@
     display: flex;
     position: absolute;
     width: calc(100% - 30px);
-    height: 50vh;
+    height: 70vh;
     left: 15px;
+    z-index: 1;
     top: 60px;
     justify-content: space-between;
     align-items: center;

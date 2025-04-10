@@ -6,7 +6,7 @@
     position: fixed;
     bottom: 40px;
     left: 91%;
-    background-color: #e6dada;
+    background-color: #6e0000;
     width: 8%;
     height: 10%;
     border-radius: 100% 100% 0% 90%;
@@ -20,7 +20,7 @@
 
 
 #logo-flutuante p a {
-    color: #B22222;
+    color: #000000;
     text-decoration: none;
     font-size: 2.7vw;
    

@@ -1,5 +1,5 @@
 .secao-skill {
-    margin-bottom: 20%;
+    height: 100vh;
 }
 
 .skill .content-skill .competencia {
@@ -72,7 +72,3 @@
 }
 
 
-.secao-skill {
-    margin-top: 40px;
-    width: 100%;
-}

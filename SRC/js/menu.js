@@ -50,5 +50,21 @@ function handleMediaQueryChange(e){
     }
 }
 
-midiaQuery.addEventListener("change", handleMediaQueryChange)
-handleMediaQueryChange(midiaQuery)
+mediaQuery.addEventListener("change", handleMediaQueryChange)
+handleMediaQueryChange(mediaQuery);
+
+
+const myObserve = new IntersectionObserver((entries) => {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show')
+        }else{
+            entry.target.classList.remove('show')
+        }
+    })
+})
+
+
+const elements = document.querySelectorAll('.hidden')
+
+elements.forEach((element) => myObserve.observe(element))
