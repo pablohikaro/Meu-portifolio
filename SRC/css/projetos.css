@@ -1,4 +1,4 @@
-.conteiner-projeto{
+.conteiner-projeto {
     height: 100vh;
 }
 
@@ -17,8 +17,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40dvh;
-    height: 22dvh;
+    width: 35%;
+    height: 35%;
     background-color: rgb(34, 33, 33);
 }
 
@@ -35,7 +35,7 @@ a {
 
 
 .cartao-yu-gi-ho h3 {
-    font-size: 1.7rem;
+    font-size: 2.7dvh;
 }
 
 

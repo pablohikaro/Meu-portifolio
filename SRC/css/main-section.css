@@ -37,6 +37,7 @@
     margin-bottom: 10%;
     color: #bc1d1d;
     font-size: 7dvh;
+    text-align: center;
 }
 
 .bem-vindo::after{
