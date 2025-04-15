@@ -10,36 +10,43 @@
     color: #fff;
 }
 
-.cartao-yu-gi-ho {
+
+.cartao-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cartoes {
     border: 4px solid #c40c0c;
     font-size: 1.3rem;
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35%;
-    height: 35%;
+    width: 20rem;
+    height: 12rem;
     background-color: rgb(34, 33, 33);
 }
 
-.cartao-yu-gi-ho h3,
+.cartoes h3,
 p,
 a {
     color: #fff;
     padding: 9px;
 }
 
-.cartao-yu-gi-ho p {
+.cartoes p {
     color: #d8d4dc;
 }
 
 
-.cartao-yu-gi-ho h3 {
+.cartoes h3 {
     font-size: 2.7dvh;
 }
 
 
-.cartao-yu-gi-ho a {
+.cartoes a {
     display: inline-flex;
     justify-content: center;
     color: #f1ebeb;
@@ -48,7 +55,7 @@ a {
     position: relative;
 }
 
-.cartao-yu-gi-ho a:hover:after {
+.cartoes a:hover:after {
     transform: scale(1.2);
     content: "";
     position: absolute;
