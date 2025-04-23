@@ -9,13 +9,14 @@
 
 .main-content img {
     padding: 10px 10px;
-    border-radius: 14px;
+    border-radius: 19px;
 }
 
 
 .main-content .sobre-mim p {
     color: #fff;
     font-size: 2.7dvh;
+    text-align: justify;
     padding: 10px 10px;
 }
 

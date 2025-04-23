@@ -1,7 +1,3 @@
-.conteiner-projeto {
-    height: 100vh;
-}
-
 
 .conteiner-projeto>h2 {
     text-align: center;
@@ -14,6 +10,8 @@
 .cartao-projetos{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20%;
     gap: 30px;
 }
 
@@ -57,5 +55,4 @@
     height: 0.2rem;
     background-image: linear-gradient(90deg, #dd2124 0%, #590521 92.32%);
     bottom: 5px;
-
 }

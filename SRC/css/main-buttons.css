@@ -1,6 +1,6 @@
 .main-buttons {
     display: inline-flex;
-    justify-content: space-between;
+    gap: 10px;
     font-size: 18px;
 }
 

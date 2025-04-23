@@ -1,12 +1,7 @@
 @media(max-width: 768px) {
-
-
     .cartao {
         flex-wrap: wrap;
-    }
-
-
-
+    } 
 }
 
 
@@ -15,11 +10,6 @@
 
     .main-apresentacao {
         font-size: 2dvh;
-    }
-
-    .cartao-yu-gi-ho {
-        width: 70% !important;
-        height: 50% !important;
     }
 
     .meu-nome {
@@ -37,8 +27,8 @@
 
 
     .main-content img{
-        height: 170px;
-        width: 170px;
+        height: 178px;
+        width: 150px;
         margin-top: 5px;
         border: 2px solid  #3e3838;
     }
