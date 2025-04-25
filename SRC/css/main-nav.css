@@ -1,7 +1,4 @@
    .main-nav {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
     position: relative;
     background-color: #151515;
     font-weight: bold;
