@@ -1,5 +1,5 @@
 .secao-skill {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .skill .content-skill .competencia {
